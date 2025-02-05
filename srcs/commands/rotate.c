@@ -1,41 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   rotate.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: YourName <your.email@example.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/05 19:49:52 by YourName          #+#    #+#             */
-/*   Updated: 2025/02/05 19:49:56 by YourName         ###   ########.fr       */
+/*   Created: 2025/02/05 20:22:59 by YourName          #+#    #+#             */
+/*   Updated: 2025/02/05 20:23:32 by YourName         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_h
-# define PUSH_SWAP_H
-
-# include "libft.h"
-# include <limits.h>
-# include <stdlib.h>
-# include <unistd.h>
-
-typedef struct s_command
-{
-	int				all;
-	int				ra;
-	int				rra;
-	int				rb;
-	int				rrb;
-	int				rr;
-	int				rrr;
-}					t_command;
-
-typedef struct s_node
-{
-	int				data;
-	int				index;
-	t_command		command;
-	struct s_node	*next;
-	struct s_node	*prev;
-}					t_node;
-
-#endif
+void ra(){
+    
+}
+void rb(){
+    
+}
+void rr(){
+    
+}
