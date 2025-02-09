@@ -6,7 +6,7 @@
 /*   By: YourName <your.email@example.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 20:22:59 by YourName          #+#    #+#             */
-/*   Updated: 2025/02/06 17:56:03 by YourName         ###   ########.fr       */
+/*   Updated: 2025/02/09 15:33:45 by YourName         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ void	ra(t_node **stack_a)
 	first->prev = last;
 	first->next = NULL;
 	write(1, "ra\n", 3);
+	print_stack(*stack_a, 'A');
 }
 void	rb(t_node **stack_b)
 {

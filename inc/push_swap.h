@@ -6,7 +6,7 @@
 /*   By: YourName <your.email@example.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 19:49:52 by YourName          #+#    #+#             */
-/*   Updated: 2025/02/06 20:02:12 by YourName         ###   ########.fr       */
+/*   Updated: 2025/02/09 14:13:38 by YourName         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,12 @@ void				sort_numbers(t_node **stack_a, t_node **stack_b, int size);
 int					get_stack_size(t_node *stack);
 void				move_min_to_top(t_node **stack, int min_index);
 int					find_min_index(t_node *stack);
+void				sort_large(t_node **stack_a, t_node **stack_b, int size);
+int					find_pivot(t_node *stack, int size);
+int					push_lower_pivot(t_node **stack_a, t_node **stack_b,
+						int pivot);
+void				move_b_to_a_sorted(t_node **stack_a, t_node **stack_b,
+						int count);
+void				push_a_to_b(t_node **stack_a, t_node **stack_b, int count);
 
 #endif

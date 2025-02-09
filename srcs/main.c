@@ -6,7 +6,7 @@
 /*   By: YourName <your.email@example.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 19:50:02 by YourName          #+#    #+#             */
-/*   Updated: 2025/02/06 20:00:52 by YourName         ###   ########.fr       */
+/*   Updated: 2025/02/09 15:39:21 by YourName         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -162,7 +162,7 @@ void	sort_numbers(t_node **stack_a, t_node **stack_b, int size)
 		sort_six_or_less(stack_a, stack_b, size);
 	else
 	{
-		write(1, "実装途中\n", 5);
+		sort_large(stack_a, stack_b, size);
 	}
 }
 /**
@@ -202,7 +202,7 @@ int	main(int argc, char **argv)
 
 	printf("After sorting:\n");
 	print_stack(stack_a, 'A');
-
+	print_stack(stack_b, 'B'); ///
 	free_stack(&stack_a);
 	free_stack(&stack_b);
 	return (0);

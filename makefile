@@ -20,7 +20,8 @@ SRCS = $(SRCDIR)/main.c \
        $(SRCDIR)/commands/rotate.c \
        $(SRCDIR)/commands/swap.c \
 	   $(SRCDIR)/sort/sort_three_or_less.c \
-	   $(SRCDIR)/sort/sort_six_or_less.c
+	   $(SRCDIR)/sort/sort_six_or_less.c \
+	   $(SRCDIR)/sort/sort_large.c
 
 # オブジェクトファイル
 OBJS = $(SRCS:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
