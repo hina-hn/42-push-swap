@@ -1,1 +1,1 @@
-# 42-push-swap
+# 42-push-swap-notsubmit
